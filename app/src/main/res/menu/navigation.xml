@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_appointment"
+        android:icon="@drawable/ic_appointment_black"
+        android:title="Appointment" />
+
+    <item
+        android:id="@+id/navigation_opportunity"
+        android:icon="@drawable/ic_opportunity_black"
+        android:title="Opportunity" />
+
+    <item
+        android:id="@+id/navigation_focus_group"
+        android:icon="@drawable/ic_group_black_24dp"
+        android:title="Focus Group" />
+
+</menu>
