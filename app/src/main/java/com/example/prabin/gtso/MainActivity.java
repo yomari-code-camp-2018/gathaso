@@ -27,6 +27,10 @@ public class MainActivity extends AppCompatActivity {
         BottomNavigationView navigation = findViewById(R.id.navigation);
         navigation.setSelectedItemId(R.id.navigation_opportunity);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+
+        manager.beginTransaction().replace(R.id.main_placeholder, opportunity)
+                .setCustomAnimations(android.R.anim.fade_in, android.R.anim.fade_out)
+                .commit();
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener

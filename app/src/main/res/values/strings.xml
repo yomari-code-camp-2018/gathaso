@@ -6,4 +6,10 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="anxiety_content">-\tGo into state of deep relaxation, breathing slowly and deeply
+        \n\n-\tImagine yourself visiting the place you last had a problem
+        \n\n-\tThis time, picture yourself feeling calm, confident and capable, breathing deeply and feeling relaxed
+        \n\n-\tUse positive affirmations such as “I feel comfortable and joyful around others, and when in a large crowd
+        \n\n-\tThere is always enough clean, fresh air for everyone to breath
+        \n\n-\tAnd regardless of ho many people are in a room, my heart rate stays even and my breathing is steady”</string>
 </resources>
